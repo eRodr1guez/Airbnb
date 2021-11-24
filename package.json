@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "airbnb",
+  "description": "Disclaimer: This project was built based on the Airbnb website for personal training only.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eRodr1guez/airbnb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eRodr1guez/airbnb/issues"
+  },
+  "homepage": "https://github.com/eRodr1guez/airbnb#readme"
+}
