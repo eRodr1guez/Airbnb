@@ -1,10 +1,12 @@
 const express = require("express");
-const connectDB = require("./config/connectDB");
-
+const connectMongo = require("./config/connectMongo");
 const app = express();
 
-// Connect DB
-connectDB();
+require("dotenv").config();
+const uri = process.env.MONGODB_URI;
+
+// Connect Mongo Database
+connectMongo(uri);
 
 app.get("/", (req, res) => res.send("Hello World!"));
 
