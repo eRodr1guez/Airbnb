@@ -1,3 +1,3 @@
 # Airbnb
 
-Disclaimer: This project was built based on the Airbnb website for personal training only.
+Disclaimer: This project was built based on Airbnb's current website for personal training only.
