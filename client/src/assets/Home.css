@@ -1,0 +1,51 @@
+.homeWrapper {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.searchBar {
+}
+
+.homeHeroWrapper {
+  width: 85%;
+  margin: auto;
+  position: relative;
+}
+
+.homeHeroWrapper img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.homeHeroContent {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.homeHeroContent h1 {
+  font-size: 38px;
+  font-weight: 600;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.homeHeroContent a {
+  background-color: #fff;
+  padding: 16px 32px;
+  border: 1px solid #000;
+  border-radius: 50px;
+
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.homeHeroContent a span {
+  -webkit-text-fill-color: transparent !important;
+  background: linear-gradient(90deg, #6f019c 0%, #c6017e 135.12%) !important;
+  -webkit-background-clip: text !important;
+}

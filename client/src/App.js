@@ -1,9 +1,7 @@
+import Main from "./containers/Main";
+
 function App() {
-  return (
-    <div className="App">
-      <p>Hello World!</p>
-    </div>
-  );
+  return <Main />;
 }
 
 export default App;
