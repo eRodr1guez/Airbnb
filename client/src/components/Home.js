@@ -4,24 +4,35 @@ function Home() {
   return (
     <div className="homeWrapper">
       <div className="searchBar">
-        <div>
-          <label for="">Location</label>
-          <input type="text" placeholder="Where are you going?" />
-        </div>
-        <div>
-          <label for="">Check in</label>
-          <input type="text" placeholder="Add dates" />
-        </div>
-        <div>
-          <label for="">Check out</label>
-          <input type="text" placeholder="Add dates" />
-        </div>
-        <div>
-          <label for="">Guests</label>
-          <input type="text" placeholder="Add guests" />
-        </div>
+        <div className="searchBarContainer">
+          <div className="inputContainer">
+            <label for="">Location</label>
+            <input type="text" placeholder="Where are you going?" />
+          </div>
 
-        <button>Search</button>
+          <div className="inputDivider"></div>
+
+          <div className="inputContainer">
+            <label for="">Check in</label>
+            <input type="text" placeholder="Add dates" />
+          </div>
+
+          <div className="inputDivider"></div>
+
+          <div className="inputContainer">
+            <label for="">Check out</label>
+            <input type="text" placeholder="Add dates" />
+          </div>
+
+          <div className="inputDivider"></div>
+
+          <div className="inputContainer">
+            <label for="">Guests</label>
+            <input type="text" placeholder="Add guests" />
+          </div>
+
+          <button>Search</button>
+        </div>
       </div>
 
       <div className="homeHeroWrapper">

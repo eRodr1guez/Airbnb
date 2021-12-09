@@ -5,6 +5,65 @@
 }
 
 .searchBar {
+  padding: 30px 0;
+}
+
+.searchBarContainer {
+  width: 90%;
+  max-width: 850px;
+  margin: auto;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 24px;
+}
+
+.inputContainer:hover {
+  background-color: #f3f3f3;
+  border-radius: 50px;
+}
+
+.inputContainer:hover + inputDivider {
+  display: none;
+}
+
+.inputDivider {
+  border-right: 1px solid #ddd;
+  height: 32px;
+}
+
+.searchBar .inputContainer label {
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 2px;
+}
+
+.inputContainer input {
+  border: none;
+  background-color: transparent;
+}
+
+.searchBarContainer button {
+  background-color: #ff3860;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 19px 15px !important;
+  cursor: pointer;
+}
+
+.searchBarContainer button:hover {
+  background-color: #bd1e59;
 }
 
 .homeHeroWrapper {
