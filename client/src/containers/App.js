@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <Router>
         <Routes>
-          <Route path="/" element={<Home name="Ernesto" />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </Router>
     );

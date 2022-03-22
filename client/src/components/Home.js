@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import "../assets/Home.css";
 
 class Home extends Component {
-  state = {
-    name: this.props.name,
-  };
+  state = {};
 
   componentDidMount() {
     fetch("/api/getUsers")
@@ -15,6 +13,16 @@ class Home extends Component {
   render() {
     return (
       <div className="homeWrapper">
+        <div style={{ backgroundColor: "#fff", fontSize: "20px", color: "#000", textAlign: "center", padding: "30px 20vw" }}>
+          <h2>
+            This project was made by{" "}
+            <a href="#" style={{ color: "#000" }}>
+              Ernesto Rodriguez
+            </a>{" "}
+            for educational purposes and is not affiliated with Airbnb in any way. All rights of the images, logos, and texts belong to Airbnb.
+          </h2>
+        </div>
+
         <div className="searchBar">
           <div className="searchBarContainer">
             <div className="inputContainer">
@@ -53,7 +61,7 @@ class Home extends Component {
           </div>
 
           <div className="homeHeroContent">
-            <h1>{this.props.name}, not sure where to go next? Perfect.</h1>
+            <h1>Not sure where to go next? Perfect.</h1>
 
             <a href="#">
               <span>I'm Flexible</span>
