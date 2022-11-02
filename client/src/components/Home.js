@@ -7,7 +7,11 @@ class Home extends Component {
   componentDidMount() {
     fetch("/api/getUsers")
       .then((response) => response.json())
-      .then((response) => console.log(response));
+      .then((response) =>
+        response.forEach((user) => {
+          console.log(user.name);
+        })
+      );
   }
 
   render() {
